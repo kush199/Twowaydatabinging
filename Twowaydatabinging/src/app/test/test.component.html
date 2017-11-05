@@ -1,0 +1,9 @@
+﻿<div>
+  Name:<input [value]='name' (input)='name=$event.target.value' />
+    <br/>
+    You entered:{{name}}
+    <br/><br/>
+    Name:<input [(ngModel)]='name' />
+    <br />
+    You entered:{{name}}
+</div>
